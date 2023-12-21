@@ -1,3 +1,7 @@
+package birthYear;
+
+import birthYear.BirthYearCalculator;
+
 import java.util.Scanner;
 public class BirthYearScanner {
     public static void main(String[] args) {

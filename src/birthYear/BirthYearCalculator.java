@@ -1,7 +1,9 @@
+package birthYear;
+
 public class BirthYearCalculator {
     private static final int CURRENT_YEAR = 2023;
 
-    public static int calculateBirthYear(int age) throws InvalidAgeException{
+    public static int calculateBirthYear(int age) throws InvalidAgeException {
         if(age <= 0){
             throw new InvalidAgeException("Invalid age");
         }
